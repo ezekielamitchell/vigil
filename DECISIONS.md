@@ -54,3 +54,11 @@ The owner explicitly requested building the accepted concept after discussing a 
 Browser interaction checks and deterministic scene rendering passed in Chromium; these checks do not complete native roadmap milestones or establish gaze accuracy. The original specification, prior images and prompts remain unchanged.
 
 Repository readback during this update shows public visibility. Earlier statements that it was private are historical and do not describe its current access. This task does not change repository visibility. The interactive source remains local; only the requested preview media and documentation are added here.
+
+## Slower motion, structured face mesh and useful telemetry
+
+The owner requested a slower animation and a much better face, then refined that direction toward a more forward-facing, less celestial mesh. The current local simulation runs on a 36-second loop and uses generic anatomical geometry with connected triangles, subtle facets and restrained nodes. The single inset label is Face mesh. MediaPipe-derived topology retains Apache-2.0 attribution in THIRD_PARTY_NOTICES.md; no perception runtime or camera is used.
+
+The owner also requested average blinks per minute and a useful grid beside the current region. Blink average is a trailing 60-second count of synthetic events, with a seeded demo timeline. The second grid shows relative dwell over the prior 12 seconds; Pointer mode accumulates its actual simulated path. Pause freezes time and these readouts. These are visual simulation features and do not complete native product milestones.
+
+The field now uses smoother geometry, rounded particles and gentler brightness transitions. The README publishes the v3 WebP, MP4 and PNG; older public media and the original specification remain unchanged. The intermediate v2 preview stays local.

@@ -1,6 +1,24 @@
+# Vigil rendered simulation — v3
+
+The current preview incorporates the owner's requests for slower movement, a forward-facing structured face mesh, clearer telemetry and a smoother field.
+
+- Preview: [animated WebP](vigil-demo-v3.webp), [MP4](vigil-demo-v3.mp4), [still PNG](vigil-demo-v3.png).
+- Motion: a 36-second cycle, one-third the initial automatic gaze and field speed. Pointer input remains responsive.
+- Face: generic anatomical topology with a mostly forward-facing pose, subtle graphite facets, coherent fine triangles, smaller landmark nodes and restrained surface detail. Removed the scattered sparkle and independent sway. One Face mesh label replaces Presence model and Landmark mask.
+- Readouts: the current coarse region sits beside a heatmap of the previous 12 seconds of simulated gaze dwell. The blink average counts synthetic events over the trailing 60 seconds and displays blinks/minute. Demo history is seeded; Pointer mode records its live simulated path. Pause freezes both histories and statistics.
+- Field: smoother broad waves, rounded subpixel particles, finer brightness transitions, quieter filaments and softer focus falloff. Field, Iris and Tide remain distinct.
+- Attribution: the generic face topology derives from [MediaPipe](https://github.com/google-ai-edge/mediapipe), pinned to revision a908d668c730da128dfa8d9f6bd25d519d006692. The transformations and full Apache-2.0 license are in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). No inference runtime is included.
+- Capture: a 36-second exact-time recording. MP4 is 1600×1000 at 30 fps; WebP is 960×600 at 15 fps. Static preview: 1585×992.
+- Validation: all scenes repeat identically at 0/36 seconds, including canvases, histories and statistics. Blink-rate boundaries were checked independently; Pointer dwell fills the expected heatmap region; Pause, Mask, calibration, reduced motion and 390px/1280px layouts passed. No app errors or external runtime requests were observed.
+- Scope: personal browser simulation, synthetic signals only. No camera, captured person, real gaze tracking, native macOS implementation or public interactive deployment. Source remains separate.
+
+The supplied face references, local intermediate previews and source snapshots stay in the personal asset archive. Public v1 media and the original concept history are preserved below.
+
+---
+
 # Vigil rendered simulation — v1
 
-The current README preview is recorded from a working local browser simulation of the accepted v4 concept.
+The first rendered README preview was recorded from a working local browser simulation of the accepted v4 concept.
 
 - Preview: [looping GIF](vigil-demo-v1.gif), [MP4](vigil-demo-v1.mp4), [still PNG](vigil-demo-v1.png).
 - Capture: 12 seconds, 360 exact-time frames at 30 fps, 1600×1000; the GIF is 800×500 at 12.5 fps with a reduced palette for README display. Static fallback: 1585×992.

@@ -10,7 +10,7 @@ The owner requested a personal GitHub repository with full project documentation
 
 ## Authorized visual follow-up
 
-The owner subsequently requested a clean visual preview for the README. The root-level concept image and VISUAL.md provenance are authorized documentation assets. The later simulation request also authorizes rendered GIF, MP4 and PNG previews. Preserve the distinction between static concept art, a running browser simulation and the future native app.
+The owner subsequently requested a clean visual preview for the README. The root-level concept image and VISUAL.md provenance are authorized documentation assets. The later simulation request also authorizes rendered animated WebP/GIF, MP4 and PNG previews. Preserve the distinction between static concept art, a running browser simulation and the future native app.
 
 ## Source and precedence
 
@@ -32,6 +32,12 @@ When expressly requested, follow the v1 scope and privacy boundaries in SPECIFIC
 
 The owner explicitly requested building the accepted concept as a live or simulated README preview. A standalone local browser simulation now renders the field and abstract presence model with synthetic/pointer input and working controls. Source remains in a separate personal project; publish only selected preview media and documentation to this repository. Do not access a camera, add analytics or deploy a public interactive site.
 
-The README uses vigil-demo-v1.gif, with vigil-demo-v1.mp4 and vigil-demo-v1.png alternatives. These are recordings of the browser simulation, not native application evidence. The reference is vigil-concept-v4.png. Preserve all earlier images and generation prompts as history; former company branding and photographic-looking faces are superseded.
+The README uses vigil-demo-v3.webp, with vigil-demo-v3.mp4 and vigil-demo-v3.png alternatives. These are recordings of the browser simulation, not native application evidence. The reference is vigil-concept-v4.png. Preserve all earlier images and generation prompts as history; former company branding and photographic-looking faces are superseded.
 
 Retain graphite/ivory, restrained amber, neutral sans-serif typography, an abstract human presence figure, detailed field geometry, approximate gaze contours and the matching region map. Scene/Pause/Mask/Calibrate/Response/Smoothing controls are functional in the browser simulation only. All input, signals and calibration are synthetic; no native perception or 3D reconstruction is demonstrated.
+
+## Current simulation refinement
+
+The owner requested slower motion, a mostly forward-facing anatomical mesh without the celestial/glitter appearance, one professional face label, a blink average, a useful companion heatmap, and a smoother field. The current preview uses a 36-second loop, one-third the original automatic motion speed. Its single inset heading is Face mesh (Landmarks when Mask is off). Preserve the restrained connected topology and avoid photographic faces.
+
+Gaze history represents relative simulated region dwell over the prior 12 seconds. Blink average counts synthetic blink events in the trailing 60 seconds; it is displayed per minute. Demo history is seeded; Pointer mode records its simulated gaze path. All readouts remain synthetic. Retain THIRD_PARTY_NOTICES.md for the anatomical mesh attribution. Source remains separate from this documentation/media repository. Preserve v1 previews and all earlier concept images as history.

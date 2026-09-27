@@ -2,9 +2,9 @@
 
 **A desktop that responds to you.**
 
-![Vigil animated simulation: an abstract digital face, a flowing three-dimensional field and a synchronized approximate gaze region.](vigil-demo-v1.gif)
+![Vigil animated simulation: an abstract digital face, a flowing three-dimensional field and a synchronized approximate gaze region.](vigil-demo-v3.webp)
 
-*12-second recording of the interactive browser simulation. Synthetic input; no camera access or real gaze tracking. [High-quality video](vigil-demo-v1.mp4) · [Still preview](vigil-demo-v1.png) · [Visual provenance](VISUAL.md).*
+*36-second recording of the interactive browser simulation. Synthetic input; no camera access or real gaze tracking. [High-quality video](vigil-demo-v3.mp4) · [Still preview](vigil-demo-v3.png) · [Visual provenance](VISUAL.md).*
 
 Vigil is a planned macOS menu-bar app for Apple Silicon, targeting macOS 14+. It will process the built-in camera on-device to estimate presence, head pose, blinks and coarse gaze regions, driving reactive Metal desktop scenes and a floating Observation HUD.
 
@@ -14,7 +14,9 @@ Vigil is a planned macOS menu-bar app for Apple Silicon, targeting macOS 14+. It
 
 ## Interactive preview
 
-The preview is recorded from real, animated point-and-line geometry. A synthetic gaze path moves the illuminated field region and the matching 3×3 HUD indicator. The abstract face turns and blinks; no photographic person or camera feed is used.
+The preview is recorded from real, animated point-and-line geometry. A synthetic gaze path moves the illuminated field region and the matching 3×3 HUD indicator. The forward-facing anatomical face uses connected triangles and restrained landmarks. The field and automatic gaze move at one-third the initial preview speed. No photographic person or camera feed is used.
+
+The HUD pairs the current look region with a heatmap of gaze dwell over the preceding 12 seconds. Blink average counts synthetic events over the trailing 60 seconds and displays blinks per minute. The demo starts with a seeded synthetic history; Pointer mode accumulates the actual simulated input history. These are simulation readouts.
 
 The local simulation supports Auto and Pointer input, keyboard arrows and touch, three distinct Field / Iris / Tide scenes, Pause, Mask, Response and Smoothing, plus an explicitly simulated five-point calibration walkthrough. Reduced-motion preferences start it paused. The narrow layout stacks the Observation panel below the field.
 
@@ -48,7 +50,7 @@ Development and native validation will run locally on a Mac with Xcode. Percepti
 
 ## Visual direction
 
-The visual direction uses graphite, warm ivory, restrained amber and clean sans-serif typography. The working simulation follows the [accepted v4 concept](vigil-concept-v4.png): a procedural human presence figure, a detailed reactive field, approximate gaze contours and a compact Observation HUD. Its face is a geometric visualization, not a reconstruction of a person. System fonts keep the local build self-contained.
+The visual direction uses graphite, warm ivory, restrained amber and clean sans-serif typography. The working simulation follows the [accepted v4 concept](vigil-concept-v4.png): a procedural human presence figure, a detailed reactive field, approximate gaze contours and a compact Observation HUD. Its face uses generic anatomical geometry, refined with a quieter connected mesh and custom cranium, ear and neck detail. [Geometry attribution](THIRD_PARTY_NOTICES.md). System fonts keep the local build self-contained.
 
 The browser scenes demonstrate the visual direction with synthetic input. Their mechanics are illustrative and do not establish the planned native app's perception pipeline or final scene algorithms. Earlier generated concepts remain in [VISUAL.md](VISUAL.md).
 
@@ -67,4 +69,4 @@ The owner authorized a separate browser simulation and README exports. Keep this
 
 ## License
 
-No open-source license has been selected or granted. Consumer Free/Pro licensing is separate from source licensing. Third-party notices and distribution terms must be resolved before shipping.
+No source license has been selected for original Vigil code. Third-party geometry used in the separate simulation retains its Apache-2.0 license, documented in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). Consumer Free/Pro licensing is separate from source licensing. Third-party notices and distribution terms must be resolved before shipping.

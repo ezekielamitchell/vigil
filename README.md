@@ -2,9 +2,9 @@
 
 **A desktop that responds to you.**
 
-![Vigil animated simulation: an abstract digital face, a flowing three-dimensional field and a synchronized approximate gaze region.](vigil-demo-v3.webp)
+![Vigil animated simulation: an abstract digital face, a flowing three-dimensional field and a synchronized approximate gaze region.](vigil-demo-v4.webp)
 
-*36-second recording of the interactive browser simulation. Synthetic input; no camera access or real gaze tracking. [High-quality video](vigil-demo-v3.mp4) · [Still preview](vigil-demo-v3.png) · [Visual provenance](VISUAL.md).*
+*36-second recording of the interactive browser simulation. Synthetic input; no camera access or real gaze tracking. [High-quality video](vigil-demo-v4.mp4) · [Still preview](vigil-demo-v4.png) · [Visual provenance](VISUAL.md).*
 
 Vigil is a planned macOS menu-bar app for Apple Silicon, targeting macOS 14+. It will process the built-in camera on-device to estimate presence, head pose, blinks and coarse gaze regions, driving reactive Metal desktop scenes and a floating Observation HUD.
 
@@ -14,7 +14,7 @@ Vigil is a planned macOS menu-bar app for Apple Silicon, targeting macOS 14+. It
 
 ## Interactive preview
 
-The preview is recorded from real, animated point-and-line geometry. A synthetic gaze path moves the illuminated field region and the matching 3×3 HUD indicator. The forward-facing anatomical face uses connected triangles and restrained landmarks. The field and automatic gaze move at one-third the initial preview speed. No photographic person or camera feed is used.
+The preview is recorded from real, animated point-and-line geometry. A synthetic gaze path moves the illuminated field region and the matching 3×3 HUD indicator. The forward-facing anatomical face uses connected triangles, clean facial contours and restrained landmarks. Simulated blinks close the eyelids fully. The field and automatic gaze move at one-third the initial preview speed. No photographic person or camera feed is used.
 
 The HUD pairs the current look region with a heatmap of gaze dwell over the preceding 12 seconds. Blink average counts synthetic events over the trailing 60 seconds and displays blinks per minute. The demo starts with a seeded synthetic history; Pointer mode accumulates the actual simulated input history. These are simulation readouts.
 
@@ -50,7 +50,7 @@ Development and native validation will run locally on a Mac with Xcode. Percepti
 
 ## Visual direction
 
-The visual direction uses graphite, warm ivory, restrained amber and clean sans-serif typography. The working simulation follows the [accepted v4 concept](vigil-concept-v4.png): a procedural human presence figure, a detailed reactive field, approximate gaze contours and a compact Observation HUD. Its face uses generic anatomical geometry, refined with a quieter connected mesh and custom cranium, ear and neck detail. [Geometry attribution](THIRD_PARTY_NOTICES.md). System fonts keep the local build self-contained.
+The visual direction uses graphite, warm ivory, restrained amber and clean sans-serif typography. The working simulation follows the [accepted v4 concept](vigil-concept-v4.png): a procedural human presence figure, a detailed reactive field, approximate gaze contours and a compact Observation HUD. Its face uses generic anatomical geometry, refined with a quieter connected mesh and custom cranium, ear and neck detail. [Geometry attribution](THIRD_PARTY_NOTICES.md). System fonts keep the local build self-contained. The owner-selected [Four Horses mark](four-horses-icon-black-v3.png) is the official personal-project icon, used beside Vigil and in its browser tab.
 
 The browser scenes demonstrate the visual direction with synthetic input. Their mechanics are illustrative and do not establish the planned native app's perception pipeline or final scene algorithms. Earlier generated concepts remain in [VISUAL.md](VISUAL.md).
 

@@ -32,7 +32,7 @@ When expressly requested, follow the v1 scope and privacy boundaries in SPECIFIC
 
 The owner explicitly requested building the accepted concept as a live or simulated README preview. A standalone local browser simulation now renders the field and abstract presence model with synthetic/pointer input and working controls. Source remains in a separate personal project; publish only selected preview media and documentation to this repository. Do not access a camera, add analytics or deploy a public interactive site.
 
-The README uses vigil-demo-v3.webp, with vigil-demo-v3.mp4 and vigil-demo-v3.png alternatives. These are recordings of the browser simulation, not native application evidence. The reference is vigil-concept-v4.png. Preserve all earlier images and generation prompts as history; former company branding and photographic-looking faces are superseded.
+The README uses vigil-demo-v4.webp, with vigil-demo-v4.mp4 and vigil-demo-v4.png alternatives. These are recordings of the browser simulation, not native application evidence. The reference is vigil-concept-v4.png. Preserve all earlier images and generation prompts as history; former company branding and photographic-looking faces are superseded.
 
 Retain graphite/ivory, restrained amber, neutral sans-serif typography, an abstract human presence figure, detailed field geometry, approximate gaze contours and the matching region map. Scene/Pause/Mask/Calibrate/Response/Smoothing controls are functional in the browser simulation only. All input, signals and calibration are synthetic; no native perception or 3D reconstruction is demonstrated.
 
@@ -41,3 +41,9 @@ Retain graphite/ivory, restrained amber, neutral sans-serif typography, an abstr
 The owner requested slower motion, a mostly forward-facing anatomical mesh without the celestial/glitter appearance, one professional face label, a blink average, a useful companion heatmap, and a smoother field. The current preview uses a 36-second loop, one-third the original automatic motion speed. Its single inset heading is Face mesh (Landmarks when Mask is off). Preserve the restrained connected topology and avoid photographic faces.
 
 Gaze history represents relative simulated region dwell over the prior 12 seconds. Blink average counts synthetic blink events in the trailing 60 seconds; it is displayed per minute. Demo history is seeded; Pointer mode records its simulated gaze path. All readouts remain synthetic. Retain THIRD_PARTY_NOTICES.md for the anatomical mesh attribution. Source remains separate from this documentation/media repository. Preserve v1 previews and all earlier concept images as history.
+
+## Personal identity and final polish
+
+Use four-horses-icon-black-v3.png as the official icon for Vigil and the owner's personal projects. Preserve its four-unit shape and spacing, and render black on light backgrounds or ivory on dark backgrounds. Its original source filename does not imply company affiliation. The local browser header and favicon use this exact PNG. The public repository includes the original mark and selected preview media only, not browser source.
+
+The final face refinement fixes lip contour continuity, duplicate strokes, ear attachments, rear-geometry visibility, full blink closure and the label/bracket overlap. Preserve the approved overall layout and slow motion.

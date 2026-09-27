@@ -1,6 +1,20 @@
+# Vigil rendered simulation — v4
+
+Final refinement of the accepted v3 platform.
+
+- Preview: [animated WebP](vigil-demo-v4.webp), [MP4](vigil-demo-v4.mp4), [still PNG](vigil-demo-v4.png).
+- Identity: the exact owner-selected [Four Horses black-v3 PNG](four-horses-icon-black-v3.png) replaces the V glyph beside Vigil and supplies the browser icon. The toolbar presents its alpha silhouette in ivory; the favicon wraps the unchanged raster in a light tile. This is the official personal-project mark.
+- Face: complete lip corners, smoother contour joins without duplicate strokes, attached ear roots, hidden rear geometry, fully closing simulated eyelids, and a clean Face mesh label. The approved pose and graphite/ivory treatment remain.
+- Motion and telemetry: the same calm 36-second loop, 12-second gaze-history grid and trailing-60-second synthetic blink count. Pointer-to-Auto handoff eases over 350 ms. A quiet backing keeps the moving gaze label legible.
+- Capture: MP4 1600×1000 at 30 fps; animated WebP 960×600 at 24 fps, both 36 seconds. Still preview 1585×992.
+- Validation: 19 focused checks pass, including smooth mode handoff, all-scene loop equality, complete blink closure, Mask, Pause/Resume, reduced motion, desktop/narrow layout and exact icon preservation. No runtime errors or external requests were observed in Chromium.
+- Scope: synthetic local browser simulation. Source remains separate; selected preview media and the personal icon are published here.
+
+---
+
 # Vigil rendered simulation — v3
 
-The current preview incorporates the owner's requests for slower movement, a forward-facing structured face mesh, clearer telemetry and a smoother field.
+The v3 preview incorporates the owner's requests for slower movement, a forward-facing structured face mesh, clearer telemetry and a smoother field.
 
 - Preview: [animated WebP](vigil-demo-v3.webp), [MP4](vigil-demo-v3.mp4), [still PNG](vigil-demo-v3.png).
 - Motion: a 36-second cycle, one-third the initial automatic gaze and field speed. Pointer input remains responsive.

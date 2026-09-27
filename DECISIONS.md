@@ -62,3 +62,7 @@ The owner requested a slower animation and a much better face, then refined that
 The owner also requested average blinks per minute and a useful grid beside the current region. Blink average is a trailing 60-second count of synthetic events, with a seeded demo timeline. The second grid shows relative dwell over the prior 12 seconds; Pointer mode accumulates its actual simulated path. Pause freezes time and these readouts. These are visual simulation features and do not complete native product milestones.
 
 The field now uses smoother geometry, rounded particles and gentler brightness transitions. The README publishes the v3 WebP, MP4 and PNG; older public media and the original specification remain unchanged. The intermediate v2 preview stays local.
+
+## Official personal-project mark and mesh cleanup
+
+The owner accepted the platform direction and selected the Four Horses black-v3 icon as the official mark for all personal projects. The Vigil toolbar and browser icon now use the exact raster, with presentation appropriate to the background. This marks personal authorship and does not make Vigil a company project. The owner requested final mesh polish; v4 resolves contour joins, duplicate strokes, ear attachment, hidden rear geometry, eyelid closure and a label/bracket overlap while preserving the approved design.

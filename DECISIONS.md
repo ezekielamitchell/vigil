@@ -32,3 +32,7 @@ SPECIFICATION.md is the exact owner-supplied attachment titled “AGENTS.md: Vig
 ## README visual follow-up
 
 The owner authorized a README concept image after initialization. vigil-concept-v1.png and VISUAL.md are root-level documentation assets; implementation remains unstarted. The image is generated concept art, not an actual product screenshot or measured simulation.
+
+## Visual direction revision — September 26, 2026
+
+The owner rejected the initial green image, fonts and layout and requested an endr-aligned intelligence-interface concept with Thinking Machines-like typography and endr brackets. The README now uses v2: graphite/ivory, restrained amber, clean sans-serif, a single Field scene and a landmark HUD. The original specification and v1 image remain historical sources. This revises visual presentation only; it creates no implementation or expanded product scope. Reverse or refine the artwork on further owner direction.

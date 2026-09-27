@@ -2,7 +2,7 @@
 
 **A desktop that notices you.**
 
-![Vigil concept preview: a phosphor-green Field desktop scene, floating Observation HUD in Mask mode, and Field, Iris and Tide previews.](vigil-concept-v1.png)
+![Vigil concept preview in endr visual style: a graphite and ivory Field scene, soft attention region and floating face-landmark Observation HUD.](vigil-concept-v2.png)
 
 *Illustrative concept preview — not a running application or verified product screenshot. [Visual provenance and generation prompt](VISUAL.md).*
 
@@ -40,10 +40,11 @@ Development and native validation will run locally on a Mac with Xcode. Percepti
 
 ## Visual direction
 
-Background `#0B0B0C`, text `#E8E4DA`, with phosphor `#7CFF6B` or infrared `#FF3B30` signal color. JetBrains Mono or IBM Plex Mono for telemetry, system font elsewhere. Motion follows signals; only idle breathing uses a timer. Fonts and their notices are future work.
+The current README concept follows the owner-requested endr direction: near-black and graphite, warm ivory, small muted amber accents, clean neutral sans-serif typography inspired by Thinking Machines, and signature 「 endr 」 brackets. A single Field desktop scene and compact Observation HUD replace the initial green collage. This revises the concept artwork; the original visual specification remains preserved in SPECIFICATION.md. Final implementation typography and styling require a separate implementation decision. Motion remains signal-driven, with timer-driven breathing only in idle.
 
 ## Documentation
 
+- [VISUAL.md](VISUAL.md): current concept direction, generation prompt and preserved v1 history.
 - [SPECIFICATION.md](SPECIFICATION.md): complete original brief, proposed future layout, approved copy, QA commands and definition of done.
 - [ROADMAP.md](ROADMAP.md): relative milestones and acceptance targets.
 - [PRIVACY.md](PRIVACY.md): data boundaries, permissions and verification requirements.

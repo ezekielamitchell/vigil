@@ -23,3 +23,7 @@ Read SPECIFICATION.md for the supplied Vigil v1 brief, preserved verbatim. Its b
 ## Future implementation
 
 When expressly requested, follow the v1 scope and privacy boundaries in SPECIFICATION.md. Use a local Mac for native development, edit the future XcodeGen spec rather than generated project files, and use replay-based tests without live-camera access. Sparkle 2 is the only planned application dependency. Keep sensitive fixtures and credentials out of ordinary Git commits. Preserve the founder's Day 10 go/no-go decision during future execution.
+
+## Current README visual direction
+
+The owner requested a complete endr-style redesign of the original green preview. The current image is vigil-concept-v2.png; preserve v1 and its prompt as history. Follow the graphite/ivory, restrained accent and clean sans-serif direction in VISUAL.md for the concept. Do not revert the preview to the original phosphor palette merely because it remains in the preserved source brief. This artwork request does not authorize application implementation or new product capabilities.

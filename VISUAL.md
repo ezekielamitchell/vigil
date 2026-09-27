@@ -1,3 +1,20 @@
+# Vigil rendered simulation — v1
+
+The current README preview is recorded from a working local browser simulation of the accepted v4 concept.
+
+- Preview: [looping GIF](vigil-demo-v1.gif), [MP4](vigil-demo-v1.mp4), [still PNG](vigil-demo-v1.png).
+- Capture: 12 seconds, 360 exact-time frames at 30 fps, 1600×1000; the GIF is 800×500 at 12.5 fps with a reduced palette for README display. Static fallback: 1585×992.
+- Rendering: local Canvas geometry for the wave field and abstract human figure, with HTML controls and system fonts. No generated image is pasted into the running interface.
+- Input: a periodic synthetic gaze path in the recording. The local live version also supports pointer, touch and arrow-key input.
+- Controls: distinct Field / Iris / Tide scenes, Pause, Mask, Response, Smoothing and a simulated five-point calibration walkthrough.
+- Validation: interactions checked in Chromium at desktop and narrow sizes; reduced-motion starts paused; no app console errors or external requests observed. Field and presence canvases match byte-for-byte at t=0/t=12 and after out-of-order rendering in all three scenes. Whole-page capture has negligible corner antialias variation.
+- Fidelity: charcoal/ivory palette, neutral type, framed stage, inset HUD, wave contours and region map follow v4. Auto/Pointer controls and synthetic-input labels clarify how the demo works. Procedural geometry is an interpretation of the generated concept rather than its exact image texture.
+- Scope: personal visual simulation only. No camera access, real face, gaze estimator, attention score, native macOS app or public interactive deployment. Browser source is maintained separately from this documentation/media repository.
+
+---
+
+## Accepted static reference and preserved generation history
+
 # Vigil concept preview — v4
 
 Vigil is Ezekiel A. Mitchell’s personal project. This refinement preserves the graphite/ivory platform and replaces the photographic-looking figure with an abstract human presence model.
@@ -11,7 +28,7 @@ Vigil is Ezekiel A. Mitchell’s personal project. This refinement preserves the
 - Status: static concept artwork with illustrative indicators. No camera was accessed and no app, tracking, reconstruction or controls were implemented. The exact native landmark rendering remains a future implementation choice within the original scope.
 - Previous images and prompts remain below as version history. v3's photographic-looking synthetic person is superseded by v4; v2's company branding is historical and does not describe project ownership.
 
-## Current generation prompt
+## v4 generation prompt
 
 ```text
 Use case: ui-mockup edit.

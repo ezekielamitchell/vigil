@@ -46,3 +46,11 @@ The owner requested a clearer camera-to-gaze-to-wave display: v3 adds a syntheti
 ## Abstract presence and detailed field refinement — September 26, 2026
 
 The owner rejected the photographic-looking synthetic face and requested an abstract human-like digital figure, more field/platform detail and a better gaze-region treatment. v4 uses a point-and-line head/shoulders representation in Mask mode, a richer 3D lattice and height contours, and a broad approximate gaze region integrated into the wave surface. Proposed Response/Smoothing controls refine the concept interface. Prior artwork and original source requirements remain preserved. This is an artistic visualization; native landmark fidelity and these controls are not implemented or validated.
+
+## Browser simulation and README recording — September 26, 2026
+
+The owner explicitly requested building the accepted concept after discussing a live/simulated README preview. A standalone local browser simulation is now implemented separately from this repository. It renders a procedural human presence model and wave field with synthetic or pointer input, scene selection, Pause, Mask, Response/Smoothing and a simulated calibration walkthrough. No camera is accessed. This authorizes selected GIF/MP4/PNG media and documentation here, not native app code, a public interactive deployment or a product release.
+
+Browser interaction checks and deterministic scene rendering passed in Chromium; these checks do not complete native roadmap milestones or establish gaze accuracy. The original specification, prior images and prompts remain unchanged.
+
+Repository readback during this update shows public visibility. Earlier statements that it was private are historical and do not describe its current access. This task does not change repository visibility. The interactive source remains local; only the requested preview media and documentation are added here.

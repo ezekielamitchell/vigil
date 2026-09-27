@@ -1,6 +1,6 @@
 # Vigil v1 roadmap
 
-**Proposed only. All milestones are unstarted and unverified.** Days are relative to a future implementation start, not calendar commitments. Documentation setup completes no product milestone.
+**Proposed only. All milestones are unstarted and unverified.** Days are relative to a future implementation start, not calendar commitments. Documentation setup completes no product milestone. The separate browser visual simulation is implemented; its synthetic input and rendered preview do not complete any native app milestone below.
 
 | Days | Milestone | Acceptance target |
 | --- | --- | --- |

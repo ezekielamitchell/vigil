@@ -2,15 +2,23 @@
 
 **A desktop that responds to you.**
 
-![Vigil concept: an abstract point-cloud human figure in Mask mode, a detailed 3D wave lattice with integrated approximate gaze contours, and compact sensing and response controls.](vigil-concept-v4.png)
+![Vigil animated simulation: an abstract digital face, a flowing three-dimensional field and a synchronized approximate gaze region.](vigil-demo-v1.gif)
 
-*Illustrative concept with an abstract presence model — not a running application or verified product screenshot. [Visual provenance and generation prompt](VISUAL.md).*
+*12-second recording of the interactive browser simulation. Synthetic input; no camera access or real gaze tracking. [High-quality video](vigil-demo-v1.mp4) · [Still preview](vigil-demo-v1.png) · [Visual provenance](VISUAL.md).*
 
 Vigil is a planned macOS menu-bar app for Apple Silicon, targeting macOS 14+. It will process the built-in camera on-device to estimate presence, head pose, blinks and coarse gaze regions, driving reactive Metal desktop scenes and a floating Observation HUD.
 
 ## Status
 
-**Documentation and visual concept only. Implementation has not started in this repository.** No source directories, application code, build configuration, fixtures, dependencies or binaries are included. Features and performance figures describe requirements, not verified capabilities. There is no application to install or build yet.
+**Native macOS app: planned. Interactive visual simulation: built and tested locally.** This repository contains documentation and preview media only. The standalone browser simulation is maintained separately; no app source, dependencies, build configuration or binaries are included here. Native product features and performance figures remain requirements, not verified capabilities. There is no native app to install yet.
+
+## Interactive preview
+
+The preview is recorded from real, animated point-and-line geometry. A synthetic gaze path moves the illuminated field region and the matching 3×3 HUD indicator. The abstract face turns and blinks; no photographic person or camera feed is used.
+
+The local simulation supports Auto and Pointer input, keyboard arrows and touch, three distinct Field / Iris / Tide scenes, Pause, Mask, Response and Smoothing, plus an explicitly simulated five-point calibration walkthrough. Reduced-motion preferences start it paused. The narrow layout stacks the Observation panel below the field.
+
+Controls, layout, pause/resume and deterministic loop rendering were checked in Chromium. These are browser-simulation checks, not validation of camera perception, native Metal rendering, gaze accuracy or product performance. No public interactive site has been deployed.
 
 A personal project by [Ezekiel A. Mitchell](https://github.com/ezekielamitchell). The original supplied brief is preserved verbatim in [SPECIFICATION.md](SPECIFICATION.md).
 
@@ -40,20 +48,22 @@ Development and native validation will run locally on a Mac with Xcode. Percepti
 
 ## Visual direction
 
-The current concept uses graphite, warm ivory, restrained amber and clean sans-serif typography. An abstract human figure made of points and fine lines replaces the photographic-looking face. A detailed wave lattice with height contours and a subtle base grid rises around a broad, approximate gaze region; the HUD highlights the corresponding screen region. Mask is active, with signal confidence, a field-intensity legend, scene selection, Pause, Calibrate and proposed Response/Smoothing controls. These are illustrative interface choices, not implemented controls or demonstrated 3D reconstruction. Vigil remains a personal project; the original brief is preserved in SPECIFICATION.md.
+The visual direction uses graphite, warm ivory, restrained amber and clean sans-serif typography. The working simulation follows the [accepted v4 concept](vigil-concept-v4.png): a procedural human presence figure, a detailed reactive field, approximate gaze contours and a compact Observation HUD. Its face is a geometric visualization, not a reconstruction of a person. System fonts keep the local build self-contained.
+
+The browser scenes demonstrate the visual direction with synthetic input. Their mechanics are illustrative and do not establish the planned native app's perception pipeline or final scene algorithms. Earlier generated concepts remain in [VISUAL.md](VISUAL.md).
 
 ## Documentation
 
-- [VISUAL.md](VISUAL.md): current concept direction, generation prompt and preserved version history.
+- [VISUAL.md](VISUAL.md): rendered simulation details, concept prompts and preserved version history.
 - [SPECIFICATION.md](SPECIFICATION.md): complete original brief, proposed future layout, approved copy, QA commands and definition of done.
 - [ROADMAP.md](ROADMAP.md): relative milestones and acceptance targets.
 - [PRIVACY.md](PRIVACY.md): data boundaries, permissions and verification requirements.
-- [DECISIONS.md](DECISIONS.md): unresolved implementation and distribution decisions.
-- [AGENTS.md](AGENTS.md): documentation-only scope and future contributor guidance.
+- [DECISIONS.md](DECISIONS.md): scope decisions and unresolved native implementation and distribution questions.
+- [AGENTS.md](AGENTS.md): documentation/media scope and future contributor guidance.
 
 ## Development status and contribution scope
 
-Current changes are limited to documentation and the owner-requested README concept image. Implementation requires a separate request. The specification's folder tree is a proposal, not existing structure. Do not add placeholder directories, build files, workflows or code during this setup. The proposed 30-day roadmap has no start date and is not evidence of progress. No tests, benchmarks or release checks have run.
+The owner authorized a separate browser simulation and README exports. Keep this repository limited to documentation and selected preview media; the native application remains unstarted. The original specification's folder tree is a proposal, not existing structure. No native source folders, build files, workflows or placeholders should be added without a further request. The proposed 30-day native roadmap has no start date. No native benchmarks or release checks have run.
 
 ## License
 

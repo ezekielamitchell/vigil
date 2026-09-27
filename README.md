@@ -2,9 +2,9 @@
 
 **A desktop that responds to you.**
 
-![Vigil personal-project concept: synthetic camera preview and facial landmarks, a center-left gaze region, brighter 3D wave-field response, signal confidence and compact controls.](vigil-concept-v3.png)
+![Vigil concept: an abstract point-cloud human figure in Mask mode, a detailed 3D wave lattice with integrated approximate gaze contours, and compact sensing and response controls.](vigil-concept-v4.png)
 
-*Illustrative concept with a synthetic camera preview — not a running application or verified product screenshot. [Visual provenance and generation prompt](VISUAL.md).*
+*Illustrative concept with an abstract presence model — not a running application or verified product screenshot. [Visual provenance and generation prompt](VISUAL.md).*
 
 Vigil is a planned macOS menu-bar app for Apple Silicon, targeting macOS 14+. It will process the built-in camera on-device to estimate presence, head pose, blinks and coarse gaze regions, driving reactive Metal desktop scenes and a floating Observation HUD.
 
@@ -40,7 +40,7 @@ Development and native validation will run locally on a Mac with Xcode. Percepti
 
 ## Visual direction
 
-The current concept uses graphite, warm ivory, restrained amber and clean sans-serif typography. A camera inset with facial landmarks and a coarse screen-region map shows where the person is looking. The matching region raises and brightens the 3D wave field. A signal-confidence indicator, intensity legend, scene selector, Pause, Mask and Calibrate controls make the proposed interaction legible. Vigil is a personal project; earlier company branding was a style-reference misunderstanding and is not part of the current design. The image is a static illustration with a generated person and illustrative signal states. The original brief remains preserved in SPECIFICATION.md; implementation is still unstarted.
+The current concept uses graphite, warm ivory, restrained amber and clean sans-serif typography. An abstract human figure made of points and fine lines replaces the photographic-looking face. A detailed wave lattice with height contours and a subtle base grid rises around a broad, approximate gaze region; the HUD highlights the corresponding screen region. Mask is active, with signal confidence, a field-intensity legend, scene selection, Pause, Calibrate and proposed Response/Smoothing controls. These are illustrative interface choices, not implemented controls or demonstrated 3D reconstruction. Vigil remains a personal project; the original brief is preserved in SPECIFICATION.md.
 
 ## Documentation
 

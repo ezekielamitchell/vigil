@@ -1,3 +1,57 @@
+# Vigil concept preview — v4
+
+Vigil is Ezekiel A. Mitchell’s personal project. This refinement preserves the graphite/ivory platform and replaces the photographic-looking figure with an abstract human presence model.
+
+- Current asset: [vigil-concept-v4.png](vigil-concept-v4.png).
+- Method: built-in image generation edit of v3; no CLI fallback.
+- Figure: a non-photographic human head and shoulders formed from points and fine contour lines, with Mask visibly active. It is an artistic perception proxy, not a real camera image or demonstrated 3D reconstruction.
+- Field: a more detailed point lattice, flowing curves, subtle height contours and a perspective base grid.
+- Gaze estimate: a broad contour region integrated into the raised wave surface, labeled Center-left / Approximate, with a matching HUD screen-region map.
+- Controls: Field / Iris / Tide, Pause, Mask, Calibrate and proposed Response/Smoothing controls. Signal confidence refers to sensing quality; it is not an attention or health score.
+- Status: static concept artwork with illustrative indicators. No camera was accessed and no app, tracking, reconstruction or controls were implemented. The exact native landmark rendering remains a future implementation choice within the original scope.
+- Previous images and prompts remain below as version history. v3's photographic-looking synthetic person is superseded by v4; v2's company branding is historical and does not describe project ownership.
+
+## Current generation prompt
+
+```text
+Use case: ui-mockup edit.
+Edit the supplied Vigil personal-project image into a much more refined v4. Keep the existing product framing, near-black graphite, warm ivory, desaturated amber, clean GT America-like neutral sans typography, existing high-level layout and personal Vigil branding. A professional, extremely precise perception-interface concept. High-resolution landscape with sharp readable type and fine geometry. The user says the design is close, so refine it, do not create a different brand. No endr, no green.
+
+THREE ESSENTIAL CHANGES:
+1. Replace the photographic person with an unmistakably abstract, sentient-looking digital human presence form.
+2. Increase the dimensional detail and craft of the 3D wave-field platform.
+3. Redesign the ugly hard oval look-region overlay into an elegant spatial uncertainty visualization integrated into the field.
+
+DIGITAL HUMAN FIGURE:
+Inside the right Observation HUD, completely REMOVE the photographic face, skin, hair, shirt, chair and webcam background. Replace with a beautiful translucent human-like face and upper neck/shoulders made solely from thousands of very fine warm-white points, layered contour filaments and a sparse delicate wire mesh. It should look awake and human in form, intelligent and calm, like a luminous mathematical human presence; not a real person or a photograph, not a metal robot, mannequin, alien, skull, horror face or armored sci-fi character. Semi-transparent volumetric depth, dark interior, delicate facial structure. A softly defined brow, eyes, nose and lips; eyes are composed of subtle linework, no glowing eyeballs. A faint human shoulder contour dissolves into the black. Turn the head very slightly inward toward the main field. Use a few subtle amber pupil/landmark accents at most. A sophisticated artistic perception proxy, NOT an assertion of conscious AI.
+Replace "CAMERA" within that inset with "PRESENCE MODEL". Add tiny quiet sublabel "Landmark mask" below the inset. Highlight the existing "Mask" button to indicate it is active; preserve Calibrate. Everything should make clear that camera input is being abstracted, not that a real face is shown.
+
+WAVE FIELD:
+Preserve the large left Field viewport but make it a truly detailed 3D mathematical surface. More orderly submillimeter-looking rows of points, flowing thin silver filaments, graceful intersecting longitudinal/transverse curves and a few very fine height contour traces. Coherent geometry; lines follow the same continuous surface and never become spaghetti. Use restrained perspective, layered relief, alternating valleys and ridges, precise depth falloff. A low-height graphite coordinate base plane with faint tick marks and subdued axes near the lower edge gives dimensional reference without introducing a battle map, numbers, noise or a platform pedestal.
+The wave surface rises locally where the user looks, around CENTER-LEFT, while quieter rings and waves fan outward. Preserve ample dark negative space. Detail must stay crisp, not grainy. Brightness increases around the region in a disciplined ivory gradient; no fog, overexposed white blob, bloom or spotlight. Show the mechanism of a reactive field through precise structure.
+
+LOOK REGION — COMPLETE REDESIGN:
+Remove the old hard yellow ellipse, single boundary dot, and awkward long diagonal leader entirely.
+Instead integrate a broad irregular soft lens of warm ivory/light desaturated amber into the wave surface near center-left. A few fine nested contour fragments follow and bend with the surface, breaking and fading naturally at the edges. It should feel like an estimated area with graded certainty: a softly brightened core, two wider quieter falloff bands, outer boundary dissolving into the mesh. No solid yellow ring or crisp edge. No bullseye, crosshair, cursor, exact point, targeting reticle or concentric perfect circles.
+Place one refined compact annotation above the surface with short clean orthogonal leader ending against the AREA without a big dot. Text only: "Gaze estimate" and below in slightly smaller type "Center-left · Approximate".
+Inside the HUD, improve the screen-region mini-map: precise 3×3 rectangular screen outline, all nine cells cleanly aligned, faint subdued dividers, middle-left cell softly ivory/amber-filled rather than hard orange. No isolated point. To its right: "Look region" then "Center-left"; small line underneath "Approximate". Ensure the main lens and mini-map agree.
+
+OVERALL PLATFORM POLISH:
+Top outside header remains "Vigil", subtitle "A desktop that responds to you." Upper right update to "INTERFACE STUDY / 04". Slightly tighter geometry, crisp hairlines and margins. Within viewport toolbar maintain Vigil on left, Field / Iris / Tide / Pause on right; Field selected.
+Right HUD heading "OBSERVATION". Maintain the rows Presence / Detected, Blink / Noticed and Signal confidence / Stable with restrained 5-segment bar (four softly lit; no neon). Add a small restrained pair of controls under that meter: "Response" and "Smoothing", each a fine horizontal slider on its own compact row. These are visualization controls, no numeric score. Then the compact Mask (active) and Calibrate buttons, then LOCAL ONLY. Balance the portrait/model area and rows so everything fits naturally, no cramped typography, no excessive blank space.
+Keep the low-to-high "Field intensity" legend in the lower-left of the main viewport; make it a tasteful thin continuous grayscale-to-ivory scale with a tiny amber end tick, no heavy bar glow.
+Bottom strip: "Camera input" → "Gaze estimate" → "Field response" → "On-device". Remove the redundant FIELD / IRIS / TIDE words at lower right; use a small tasteful "MASK VIEW" indicator there.
+Very bottom caption: "Illustrative concept · Abstract presence model".
+Use content as exact text; no invented numerical coordinates, dates, fps, accuracy percentages or charts.
+Final image should feel visibly more intricate, high-fidelity and intelligently designed, while remaining coherent and quiet.
+
+Strict negatives: no photographic person of any kind, no realistic skin or hair, no company/endr logo, no military weapons or seals, no real camera capture, no green, no cyberpunk neon, no camera recording buttons, no blue hologram, no threat or attention scores, no precise eye cursor. Preserve project scope and controlled elegance.
+```
+
+---
+
+## Historical v3 record — superseded figure and gaze visualization
+
 # Vigil concept preview — v3
 
 Vigil is Ezekiel A. Mitchell’s **personal project**. The previous revision incorrectly turned a style reference into endr branding and company asset routing. That attribution is superseded: the current image has Vigil branding only, and its artwork, generation history and private references are stored in the personal Vigil image library.

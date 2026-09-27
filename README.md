@@ -1,10 +1,10 @@
 # Vigil
 
-**A desktop that notices you.**
+**A desktop that responds to you.**
 
-![Vigil concept preview in endr visual style: a graphite and ivory Field scene, soft attention region and floating face-landmark Observation HUD.](vigil-concept-v2.png)
+![Vigil personal-project concept: synthetic camera preview and facial landmarks, a center-left gaze region, brighter 3D wave-field response, signal confidence and compact controls.](vigil-concept-v3.png)
 
-*Illustrative concept preview — not a running application or verified product screenshot. [Visual provenance and generation prompt](VISUAL.md).*
+*Illustrative concept with a synthetic camera preview — not a running application or verified product screenshot. [Visual provenance and generation prompt](VISUAL.md).*
 
 Vigil is a planned macOS menu-bar app for Apple Silicon, targeting macOS 14+. It will process the built-in camera on-device to estimate presence, head pose, blinks and coarse gaze regions, driving reactive Metal desktop scenes and a floating Observation HUD.
 
@@ -12,7 +12,7 @@ Vigil is a planned macOS menu-bar app for Apple Silicon, targeting macOS 14+. It
 
 **Documentation and visual concept only. Implementation has not started in this repository.** No source directories, application code, build configuration, fixtures, dependencies or binaries are included. Features and performance figures describe requirements, not verified capabilities. There is no application to install or build yet.
 
-Maintained by [Ezekiel A. Mitchell](https://github.com/ezekielamitchell). The original supplied brief is preserved verbatim in [SPECIFICATION.md](SPECIFICATION.md).
+A personal project by [Ezekiel A. Mitchell](https://github.com/ezekielamitchell). The original supplied brief is preserved verbatim in [SPECIFICATION.md](SPECIFICATION.md).
 
 ## Planned v1
 
@@ -40,11 +40,11 @@ Development and native validation will run locally on a Mac with Xcode. Percepti
 
 ## Visual direction
 
-The current README concept follows the owner-requested endr direction: near-black and graphite, warm ivory, small muted amber accents, clean neutral sans-serif typography inspired by Thinking Machines, and signature 「 endr 」 brackets. A single Field desktop scene and compact Observation HUD replace the initial green collage. This revises the concept artwork; the original visual specification remains preserved in SPECIFICATION.md. Final implementation typography and styling require a separate implementation decision. Motion remains signal-driven, with timer-driven breathing only in idle.
+The current concept uses graphite, warm ivory, restrained amber and clean sans-serif typography. A camera inset with facial landmarks and a coarse screen-region map shows where the person is looking. The matching region raises and brightens the 3D wave field. A signal-confidence indicator, intensity legend, scene selector, Pause, Mask and Calibrate controls make the proposed interaction legible. Vigil is a personal project; earlier company branding was a style-reference misunderstanding and is not part of the current design. The image is a static illustration with a generated person and illustrative signal states. The original brief remains preserved in SPECIFICATION.md; implementation is still unstarted.
 
 ## Documentation
 
-- [VISUAL.md](VISUAL.md): current concept direction, generation prompt and preserved v1 history.
+- [VISUAL.md](VISUAL.md): current concept direction, generation prompt and preserved version history.
 - [SPECIFICATION.md](SPECIFICATION.md): complete original brief, proposed future layout, approved copy, QA commands and definition of done.
 - [ROADMAP.md](ROADMAP.md): relative milestones and acceptance targets.
 - [PRIVACY.md](PRIVACY.md): data boundaries, permissions and verification requirements.

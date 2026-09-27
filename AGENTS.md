@@ -1,5 +1,9 @@
 # Vigil repository instructions
 
+## Personal project ownership
+
+Vigil is Ezekiel A. Mitchell’s personal project, not an endr project. A prior style reference was mistakenly treated as company branding and routing. Do not put company branding on current Vigil artwork, apply company gates, or route its files into company asset storage. Local image masters and private generation/reference history live under /Users/house/Pictures/Vigil. The GitHub repository remains personal and private.
+
 ## Current authorization
 
 The owner requested a personal GitHub repository with full project documentation only: no main code, app folders, scaffolding or build configuration. Do not begin implementation without a separate owner request.
@@ -17,7 +21,7 @@ Read SPECIFICATION.md for the supplied Vigil v1 brief, preserved verbatim. Its b
 - Keep all current files at repository root; no empty folders or placeholder source files.
 - Mark product features, performance targets, privacy guarantees and shipping checks as planned or unverified until evidence supports them.
 - Do not run camera capture, permission resets, fixture recording, benchmarks or release commands just because they appear in the source brief.
-- Do not add workflows, dependency manifests, media, secrets, signing material or an open-source license during setup.
+- Do not add workflows, dependency manifests, non-concept media, secrets, signing material or an open-source license during setup. Owner-requested concept images and their documentation are authorized.
 - No release or public publication is authorized by this initialization.
 
 ## Future implementation
@@ -26,4 +30,4 @@ When expressly requested, follow the v1 scope and privacy boundaries in SPECIFIC
 
 ## Current README visual direction
 
-The owner requested a complete endr-style redesign of the original green preview. The current image is vigil-concept-v2.png; preserve v1 and its prompt as history. Follow the graphite/ivory, restrained accent and clean sans-serif direction in VISUAL.md for the concept. Do not revert the preview to the original phosphor palette merely because it remains in the preserved source brief. This artwork request does not authorize application implementation or new product capabilities.
+The current image is vigil-concept-v3.png. Preserve earlier images and prompts as historical artifacts; their former company branding is superseded. Retain the graphite/ivory aesthetic and show a synthetic camera inset, facial landmarks, coarse look region, corresponding 3D wave-intensity response, signal-confidence meter and compact scene/Pause/Mask/Calibrate controls. This is an illustrative preview, not a working app. A confidence indicator must not imply attention scoring, target lock, precise gaze pointing or dwell-to-click. This task authorizes README artwork and documentation, not application implementation.

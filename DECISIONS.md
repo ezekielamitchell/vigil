@@ -36,3 +36,9 @@ The owner authorized a README concept image after initialization. vigil-concept-
 ## Visual direction revision — September 26, 2026
 
 The owner rejected the initial green image, fonts and layout and requested an endr-aligned intelligence-interface concept with Thinking Machines-like typography and endr brackets. The README now uses v2: graphite/ivory, restrained amber, clean sans-serif, a single Field scene and a landmark HUD. The original specification and v1 image remain historical sources. This revises visual presentation only; it creates no implementation or expanded product scope. Reverse or refine the artwork on further owner direction.
+
+## Personal project correction and visual refinement — September 26, 2026
+
+The owner clarified that Vigil is a personal project, not an endr project. Earlier references to an endr-style direction were aesthetic references, not company attribution. Current artwork uses Vigil branding only; prior versions remain historical. The mistakenly routed v2 master, raw run and reference originals were moved with byte-for-byte verification to /Users/house/Pictures/Vigil, outside company storage. Company catalogs retain a routing-correction note only.
+
+The owner requested a clearer camera-to-gaze-to-wave display: v3 adds a synthetic camera inset, a matching center-left screen-region map and soft gaze halo, local wave-intensity response, a signal-confidence bar, and scene/Pause/Mask/Calibrate controls. Values are illustrative; the change adds no application code, actual camera capture, gaze accuracy claim, attention score or cursor interaction. Further owner direction may refine the concept.

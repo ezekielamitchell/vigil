@@ -1,3 +1,57 @@
+# Vigil concept preview — v3
+
+Vigil is Ezekiel A. Mitchell’s **personal project**. The previous revision incorrectly turned a style reference into endr branding and company asset routing. That attribution is superseded: the current image has Vigil branding only, and its artwork, generation history and private references are stored in the personal Vigil image library.
+
+- Current asset: [vigil-concept-v3.png](vigil-concept-v3.png).
+- Method: built-in image generation, editing v2 while preserving its charcoal/ivory palette and clean sans-serif typography.
+- Interaction: synthetic camera preview with facial landmarks → coarse center-left screen region → a matching soft gaze halo → a raised, brighter 3D wave field.
+- Indicators: presence, blink, an illustrative signal-confidence bar and a field-intensity legend. Confidence describes the sensing signal; it is not an attention, health or productivity score, a target lock, or a click trigger.
+- Controls: Field / Iris / Tide, Pause, Mask and Calibrate.
+- Scope: static concept artwork. The person is generated, not an actual camera recording; values and region detection are illustrative. No application or camera access was implemented.
+- v1 and v2 remain historical artwork, with their original prompts below. v2's former company branding is not current project attribution.
+
+## Current generation prompt
+
+```text
+Use case: ui-mockup edit.
+Edit the supplied Vigil concept image. The user likes this design very much and wants a careful functional refinement, not another redesign. Preserve the near-black graphite / warm ivory / restrained amber palette, clean neutral sans typography, meticulous thin rules, single dominant field viewport, understated scientific instrumentation aesthetic and overall proportions. Retain the beautiful 3D point-lattice wave field. No green.
+
+CRITICAL OWNERSHIP CHANGE: this is Vigil, a PERSONAL project. Remove the entire "endr" brand and its adjacent divider from the top-left header. The only product name is "Vigil", a little larger at the original top-left margin. Beneath: "A desktop that responds to you." Keep upper-right "INTERFACE STUDY / 03". Never include endr anywhere. Simple neutral corner marks elsewhere are okay but no company attribution.
+
+Make the image clearly demonstrate THIS causal sequence: one person seen by a camera → approximate location where their eyes are looking on the screen → the 3D wave field rises and brightens in that screen region. This must be instantly understandable, not decorative wallpaper.
+
+MAIN FIELD / GAZE RESPONSE:
+Keep the main dark wide viewport. Preserve the ivory mathematical point field, but shape it into a low, readable 3D wave surface with a pronounced raised soft hill of brighter cream points near the CENTER-LEFT of the viewport. The amplitude, dot brightness and density increase smoothly around that location then fall away. The rest of the field is lower and dimmer. It should look like a living wave field responding to the person's gaze, not a mountainous terrain or a spotlight.
+Overlay one broad, softly feathered amber/ivory elliptical gaze region around the wave peak with an extremely delicate broken contour and subtle transparent interior. No crisp gaze point, crosshair, cursor or target reticle. A short fine leader points to a small label "Look region / Center-left". This is approximate and uncertain, not pixel accurate. A tiny nearby horizontal legend reads "Field intensity", with a short low-to-high ramp in graphite-to-ivory. This is a visualization setting/response, not attention or health scoring.
+
+RIGHT-SIDE OBSERVATION HUD:
+Keep the rectangular right HUD, increase its width very slightly if needed to fit readable content; it must stay compact, never take over the field. Keep "OBSERVATION" as heading.
+Replace the wireframe-only face with an unmistakable 4:3 monochrome CAMERA preview showing one completely synthetic adult sitting at a computer, shoulders and face, plain dark background, casual dark shirt, relaxed attentive expression. The face is mostly forward, eyes subtly looking toward their screen. Natural photographic-looking camera inset, not a metal robot, not a real celebrity, no personal likeness. Overlay sparse, restrained warm-ivory facial landmark dots around the eyes/nose/face, tiny pupil marks and fine corner brackets. Clearly feels like a webcam preview with local computer vision. Small inset label "CAMERA". Do not leave the old "MASK" label on the active photo.
+Immediately below the camera inset, include a tiny 3-by-3 screen-region minimap. Highlight its MIDDLE-LEFT cell with muted amber and a soft edge; all other cells are quiet charcoal outlines. Beside it two readable lines: "Look region" and "Center-left". This must agree with the main wave peak and label.
+Below, compact aligned status rows:
+"Presence"   "Detected"
+"Blink"      "Noticed"
+Then a restrained segmented horizontal status meter, four of five short segments softly lit, labeled "Signal confidence" with "Stable" at the right. NOT target lock, not a progress-to-click bar, not an attention score. No percentages or performance claims.
+Then two small secondary buttons in a single row: "Mask" and "Calibrate". Mask is not selected because camera preview is active.
+Bottom line "LOCAL ONLY" with a muted amber dot. No recording indicator, no record button.
+
+TOP VIEWPORT TOOLBAR:
+On the left show "Vigil". On the right, one quiet segmented scene selector "Field   Iris   Tide" with Field selected, then one thin separator and "Pause". No duplicate scene picker elsewhere. The current Field scene has soft 3D wave deformation; do not switch to a third-party app.
+
+BOTTOM STRIP:
+Replace the old generic four-item feature strip with a simple legible left-to-right explanatory strip, four short phrases linked by small thin arrows:
+"Camera" → "Look region" → "Wave response" → "On-device"
+Use clean regular sans, not giant headings.
+At bottom left small but readable "Illustrative concept • Synthetic camera preview".
+Preserve the quiet professional research-interface tone and large well-aligned margins.
+
+Constraints: This is still a static product-concept image, not a completed app. No company logos, no endr, no CIA seals, no weapons, no classified markings, no code, no blue or neon green, no extra windows, no hand tracking, no outside surveillance, no cursor control, no precise crosshair. Avoid a cluttered fake military dashboard. All interface text must be crisp and spelled correctly. Keep the original aesthetic that the user liked; add only these specific understandable interaction cues and fitting controls.
+```
+
+---
+
+## Historical v2 record — superseded project attribution and preview
+
 # Vigil concept preview — v2
 
 The owner requested a complete visual redesign of the initial phosphor-green preview: a restrained intelligence-systems aesthetic fitting endr, cleaner typography inspired by the supplied Thinking Machines references, a different layout, and signature corner brackets.

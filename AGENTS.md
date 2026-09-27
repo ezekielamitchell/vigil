@@ -4,6 +4,10 @@
 
 The owner requested a personal GitHub repository with full project documentation only: no main code, app folders, scaffolding or build configuration. Do not begin implementation without a separate owner request.
 
+## Authorized visual follow-up
+
+The owner subsequently requested a clean visual preview for the README. The root-level concept image and VISUAL.md provenance are authorized documentation assets. This does not authorize application code, scaffolding, fixtures, or build folders. Preserve the concept label and distinguish generated imagery from a running app.
+
 ## Source and precedence
 
 Read SPECIFICATION.md for the supplied Vigil v1 brief, preserved verbatim. Its build instructions and proposed folder layout describe future work; they do not expand the current repository-setup request. Read DECISIONS.md before implementing affected behavior. Preserve the original specification and record clarifications separately.

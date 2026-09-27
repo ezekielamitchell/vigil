@@ -2,11 +2,15 @@
 
 **A desktop that notices you.**
 
+![Vigil concept preview: a phosphor-green Field desktop scene, floating Observation HUD in Mask mode, and Field, Iris and Tide previews.](vigil-concept-v1.png)
+
+*Illustrative concept preview — not a running application or verified product screenshot. [Visual provenance and generation prompt](VISUAL.md).*
+
 Vigil is a planned macOS menu-bar app for Apple Silicon, targeting macOS 14+. It will process the built-in camera on-device to estimate presence, head pose, blinks and coarse gaze regions, driving reactive Metal desktop scenes and a floating Observation HUD.
 
 ## Status
 
-**Documentation only. Implementation has not started in this repository.** No source directories, application code, build configuration, fixtures, dependencies or binaries are included. Features and performance figures describe requirements, not verified capabilities. There is no application to install or build yet.
+**Documentation and visual concept only. Implementation has not started in this repository.** No source directories, application code, build configuration, fixtures, dependencies or binaries are included. Features and performance figures describe requirements, not verified capabilities. There is no application to install or build yet.
 
 Maintained by [Ezekiel A. Mitchell](https://github.com/ezekielamitchell). The original supplied brief is preserved verbatim in [SPECIFICATION.md](SPECIFICATION.md).
 
@@ -48,7 +52,7 @@ Background `#0B0B0C`, text `#E8E4DA`, with phosphor `#7CFF6B` or infrared `#FF3B
 
 ## Development status and contribution scope
 
-Current changes are limited to documentation. Implementation requires a separate request. The specification's folder tree is a proposal, not existing structure. Do not add placeholder directories, build files, workflows or code during this setup. The proposed 30-day roadmap has no start date and is not evidence of progress. No tests, benchmarks or release checks have run.
+Current changes are limited to documentation and the owner-requested README concept image. Implementation requires a separate request. The specification's folder tree is a proposal, not existing structure. Do not add placeholder directories, build files, workflows or code during this setup. The proposed 30-day roadmap has no start date and is not evidence of progress. No tests, benchmarks or release checks have run.
 
 ## License
 

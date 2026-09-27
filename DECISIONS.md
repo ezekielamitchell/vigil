@@ -28,3 +28,7 @@ The complete supplied Vigil v1 brief is preserved verbatim in SPECIFICATION.md: 
 ## Provenance
 
 SPECIFICATION.md is the exact owner-supplied attachment titled “AGENTS.md: Vigil v1”. Commands in it were not executed and proposed folders were not created. Companion documents organize that brief and flag unresolved questions. No external technical or legal assertions were independently validated during setup.
+
+## README visual follow-up
+
+The owner authorized a README concept image after initialization. vigil-concept-v1.png and VISUAL.md are root-level documentation assets; implementation remains unstarted. The image is generated concept art, not an actual product screenshot or measured simulation.
